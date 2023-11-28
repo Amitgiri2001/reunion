@@ -19,6 +19,7 @@
 .slider {
     width: 94%;
     margin: auto;
+
 }
 
 .slide {
@@ -28,6 +29,7 @@
     /* Add your preferred background color */
     border-radius: 10px;
     padding: 20px;
+    padding-bottom: 40px;
     transition: transform 3s linear;
     /* Add smooth transition */
 }

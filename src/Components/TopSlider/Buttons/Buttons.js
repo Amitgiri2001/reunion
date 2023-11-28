@@ -5,7 +5,7 @@ export function SampleNextArrow(props) {
     return (
         <div
             className={className}
-            style={{ ...style, display: "flex", width: "2%" }}
+            style={{ ...style, display: "block", background: "gray" }}
             onClick={onClick}
         />
     );

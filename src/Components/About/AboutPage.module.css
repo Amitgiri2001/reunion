@@ -33,10 +33,10 @@
 .heading {
     font-size: 350%;
     opacity: 1;
-    color: aqua;
+    color: greenyellow;
     font-weight: 700;
     text-align: center;
-    text-shadow: 3px 4px 6px rgba(0, 0, 0, 0.7);
+    text-shadow: 3px 5px 8px rgba(0, 0, 0, 0.7);
     margin-top: 10%;
 }
 
@@ -130,5 +130,15 @@
 
     .p_text {
         font-size: 100%;
+    }
+}
+
+@media (max-width:360px) {
+    .section1 h1 {
+        font-size: 150%;
+    }
+
+    .section1 p {
+        font-size: 80%;
     }
 }

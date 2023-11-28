@@ -1,11 +1,12 @@
 .container {
-    width: 100%;
-
+    width: 100vw;
+    margin: auto;
     overflow: hidden;
+    /* background-color: #545151; */
 }
 
 .slider {
-    width: 100%;
+    width: 95%;
     height: 100%;
     display: flex;
     /* Make sure the slider items are displayed in a row */
@@ -32,5 +33,11 @@
 @media only screen and (min-width: 1024px) {
     .img {
         height: 85vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .slider {
+        width: 100vw;
     }
 }

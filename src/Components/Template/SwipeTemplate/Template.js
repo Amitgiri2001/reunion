@@ -15,7 +15,7 @@ const Template = (props) => {
 
     useEffect(() => {
         const observer = new IntersectionObserver(handleIntersection, {
-            threshold: 0.4, // Adjust as needed, 0.3 means 30% of the target element must be visible
+            threshold: 0.5, // Adjust as needed, 0.3 means 30% of the target element must be visible
         });
 
         if (sectionRef1.current) {

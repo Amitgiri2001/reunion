@@ -80,24 +80,24 @@ ul {
 
 /* contact us section
  */
-.contact-section {
+.contact_section {
     text-align: center;
     margin-top: 20px;
 }
 
-.contact-section p {
+.contact_section p {
     font-size: 16px;
     margin-bottom: 10px;
 }
 
-.social-icons {
+.social_icons {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.social-icons a {
-    margin: 0 10px;
+.social_icons a {
+    margin: 0 6px;
     text-decoration: none;
 }
 
@@ -106,4 +106,9 @@ ul {
     /* Adjust the size as needed */
     height: 30px;
     padding: 5px;
+    color: white;
+}
+
+.img:hover {
+    transform: scale(1.12);
 }

@@ -34,10 +34,10 @@ const ContactUs = () => {
 
         <Template img={contactUs} topHeading="Contact Us" heading="ℂ.𝕄.𝕊 ℍ𝕀𝔾ℍ 𝕊ℂℍ𝕆𝕆𝕃" text="Reach out to us with your questions, suggestions, or just to say hello! Your feedback is valuable, and we look forward to hearing from you as we work together to make this reunion a success.
 
-Email - sabujsangam@gmail.com
+Email - 𝙨𝙖𝙗𝙪𝙟𝙨𝙖𝙣𝙜𝙖𝙢@𝙜𝙢𝙖𝙞𝙡.𝙘𝙤𝙢
 
 
-Mobile no - 7407309941/9932413494" />
+Mobile no - 𝟳𝟰𝟬𝟳𝟯𝟬𝟵𝟵𝟰𝟭/𝟵𝟵𝟯𝟮𝟰𝟭𝟯𝟰𝟵𝟰" />
 
     );
 };

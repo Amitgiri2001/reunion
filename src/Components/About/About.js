@@ -48,7 +48,7 @@ const AboutPage = () => {
                     ]}
                     wrapper="span"
                     speed={50}
-                    style={{ fontSize: '3rem', display: 'inline-block', textAlign: 'center' }}
+                    style={{ fontSize: '170%', display: 'inline-block', textAlign: 'center' }}
                     repeat={Infinity}
                 />
                 </h2>

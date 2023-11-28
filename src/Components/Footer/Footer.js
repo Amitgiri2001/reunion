@@ -6,6 +6,7 @@ import fb from "../../Images/facebook.svg";
 import yt from "../../Images/youtube.svg";
 import ln from "../../Images/linkedin.svg";
 import ins from "../../Images/instagram.svg";
+import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <div className={styles.footer}>
@@ -18,18 +19,18 @@ const Footer = () => {
                 <div className={styles.rightCol}>
                     <div className={styles.leftList}>
                         <ul>
-                            <li><a href="#About">About us</a></li>
-                            <li><a href="#About">FAQs</a></li>
-                            <li><a href="#About">SPP</a></li>
-                            <li><a href="/terms">Terms & Conditions</a></li>
+                            <li><Link to="about">About us</Link></li>
+                            <li><Link to="">FAQs</Link></li>
+                            <li><Link to="">SPP</Link></li>
+                            <li><Link to="">Terms & Conditions</Link></li>
                         </ul>
                     </div>
                     <div className={styles.rightList}>
                         <ul>
-                            <li><a href="/detailedEvents">Events</a></li>
-                            <li><a href="#About">News</a></li>
-                            <li><a href="/gallery">Galleries</a></li>
-                            <li><a href="#About">Know more</a></li>
+                            <li><Link to="">Events</Link></li>
+                            <li><Link to="">News</Link></li>
+                            <li><Link to="gallery">Galleries</Link></li>
+                            <li><Link to="">Know more</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -40,13 +41,13 @@ const Footer = () => {
 
 
 
-            <div class="contact-section">
+            <div className={styles.contact_section}>
                 <p>Contact with us on:</p>
-                <div class="social-icons">
-                    <a href="https://facebook.com"><img src={fb} alt="Facebook" className={styles.img} /></a>
-                    <a href="https://facebook.com"><img src={ins} alt="Facebook" className={styles.img} /></a>
-                    <a href="https://facebook.com"><img src={yt} alt="Facebook" className={styles.img} /></a>
-                    <a href="https://facebook.com"><img src={ln} alt="Facebook" className={styles.img} /></a>
+                <div className={styles.social_icons}>
+                    <Link to="https://facebook.com"><img src={fb} alt="Facebook" className={styles.img} /></Link>
+                    <Link to="https://instagram.com"><img src={ins} alt="instagram" className={styles.img} /></Link>
+                    <Link to="https://youtube.com"><img src={yt} alt="youtube" className={styles.img} /></Link>
+                    <Link to="https://linkedin.com"><img src={ln} alt="linkedin" className={styles.img} /></Link>
 
                 </div>
             </div>

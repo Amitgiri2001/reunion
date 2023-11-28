@@ -39,22 +39,22 @@ const Navbar = () => {
                 >
                     <ul class="nav justify-content-center navbar-nav   mb-2 mb-lg-0 ">
                         <li class="nav-item">
-                            <Link class="nav-link active" aria-current="page" to="/">Home</Link>
+                            <Link class="nav-link active" aria-current="page" to="/" onClick={handleToggle}>Home</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link" to="about">About Us</Link>
+                            <Link class="nav-link" to="about" onClick={handleToggle}>About Us</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link" to="gallery">Gallery</Link>
+                            <Link class="nav-link" to="gallery" onClick={handleToggle}>Gallery</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link" to="contact">Contact Us</Link>
+                            <Link class="nav-link" to="contact" onClick={handleToggle}>Contact Us</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link" to="donation">Donation</Link>
+                            <Link class="nav-link" to="donation" onClick={handleToggle}>Donation</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link" to="merchandise">Merchandise</Link>
+                            <Link class="nav-link" to="merchandise" onClick={handleToggle}>Merchandise</Link>
                         </li>
 
                     </ul>

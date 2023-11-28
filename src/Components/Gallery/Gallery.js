@@ -26,7 +26,8 @@ const Gallery = () => {
 
   return (
     <>
-      <h1 style={{ textAlign: "center" }}>Our Gallery of 2k22</h1>
+      <h1 className={styles.heading
+      }>Our Gallery of 2k22</h1>
 
       <GalleryTemplate img1={img1} img2={img2} img3={img3} img4={img4} />
       <GalleryTemplate img1={img5} img2={img6} img3={img7} img4={img8} />

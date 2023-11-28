@@ -25,9 +25,9 @@ const TopSlider = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        // pauseOnHover: true,
-        // nextArrow: <SampleNextArrow />,
-        // prevArrow: <SamplePrevArrow />
+
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />
     };
 
 
