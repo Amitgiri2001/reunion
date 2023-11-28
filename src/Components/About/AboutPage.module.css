@@ -1,0 +1,134 @@
+/* AboutPage.module.css */
+.aboutContainer {
+    position: relative;
+}
+
+.backgroundContainer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb1.png');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.section {
+    height: 100vh;
+    overflow-y: scroll;
+    padding: 20px;
+    box-sizing: border-box;
+    color: rgb(207, 204, 204);
+}
+
+.section:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.section:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.heading {
+    font-size: 350%;
+    opacity: 1;
+    color: aqua;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 3px 4px 6px rgba(0, 0, 0, 0.7);
+    margin-top: 10%;
+}
+
+.welcome {
+    /* font-size: 200%; */
+    text-align: center;
+    color: green;
+    text-shadow: 3px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.gif {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    height: 50px;
+    width: 50px;
+
+}
+
+/* main about section */
+
+.section1 {
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.left,
+.right {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    transition: transform 0.6s ease-out;
+    /* background-color: #8d5757; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    left: 0;
+
+}
+
+.right {
+    right: 0;
+}
+
+.inViewport .left {
+    transform: translateX(-100%);
+}
+
+.inViewport .right {
+    transform: translateX(100%);
+}
+
+.p_text {
+    border-left: 10px solid purple;
+    margin: 10%;
+    color: white;
+    padding: 2%;
+    font-size: 140%;
+    transition: transform 0.7s ease-in-out;
+}
+
+.p_text:hover {
+    transform: scale(1.14);
+}
+
+.p_text span {
+    color: yellow;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .section {
+        height: 60vh;
+    }
+
+    .section1 {
+        height: 80vh;
+        padding: 2%;
+    }
+
+    .heading {
+        margin-top: 4%;
+        font-size: 200%;
+    }
+
+    .p_text {
+        font-size: 100%;
+    }
+}

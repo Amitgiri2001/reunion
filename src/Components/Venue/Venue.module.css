@@ -1,0 +1,61 @@
+.container {
+    height: 50vh;
+    width: 98vw;
+    display: flex;
+}
+
+.heading {
+
+    font-family: 'Monoton', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    color: green;
+}
+
+.left {
+    width: 50%;
+    height: 47vh;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: zoomInOut 5s linear infinite;
+}
+
+.right {
+    width: 48%;
+
+    height: 47vh;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2%;
+
+    font-family: 'Playpen Sans', cursive;
+
+}
+
+
+.venue_img {
+    width: 100%;
+    height: 38vh;
+    /* transform: scale(1.2); */
+}
+
+@keyframes zoomInOut {
+
+    0%,
+    100% {
+        transform: scale(1);
+        /* Start and end with normal scale */
+    }
+
+    50% {
+        transform: scale(1.1) translateY(-5%);
+
+        /* Zoom in at 50% of the animation duration */
+    }
+}

@@ -1,0 +1,88 @@
+.section {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #dbe1ef;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topHeading {
+    font-family: 'sofia';
+    text-align: center;
+    font-weight: 800;
+    font-size: 220%;
+    padding-top: 4%;
+    padding-left: 4%;
+}
+
+
+.left,
+.right {
+    position: absolute;
+    top: 0;
+    height: 60vh;
+    width: 45%;
+    transition: transform 0.6s ease-out;
+    /* background-color: #8d5757; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+    transition: transform 0.6s ease-in-out;
+
+}
+
+.img {
+    width: 70%;
+    height: auto;
+}
+
+.left {
+    left: 0;
+
+}
+
+.left:hover,
+.right:hover {
+    transform: scale(1.07) translateY(5%);
+}
+
+.right {
+    right: 0;
+}
+
+.right p {
+    border-left: 10px solid purple;
+    padding: 5%;
+    margin: 8%;
+}
+
+.inViewport .left {
+    transform: translateX(-100%);
+}
+
+.inViewport .right {
+    transform: translateX(100%);
+}
+
+
+
+@media (max-width: 768px) {
+    .section {
+        height: 70vh;
+    }
+
+    .right p {
+        border-left: 10px solid purple;
+        padding: 2%;
+        margin: 1%;
+    }
+}

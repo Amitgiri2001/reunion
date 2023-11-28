@@ -1,0 +1,51 @@
+.card {
+    position: relative;
+    background-size: cover;
+    /* Adjust as needed */
+    background-position: center;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25vw;
+    height: 25vh;
+    /* align-items: center; */
+
+    border-radius: 10px;
+    padding: 1% 8%;
+    /* make all the cards in one line */
+    display: inline-block;
+    margin: .59%;
+
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 40vw;
+    }
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+
+    text-align: center;
+}
+
+.text {
+    color: #0C356A;
+    font-family: 'Sofia', cursive;
+}

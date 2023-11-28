@@ -1,0 +1,104 @@
+/* src/DonationPage.module.css */
+.container {
+
+    color: #164863;
+    padding: 20px;
+    font-family: 'Sofia', cursive;
+
+    /* text-align: center; */
+}
+
+.container p {
+    font-family: 'Roboto', cursive;
+    color: black;
+    font-weight: 100;
+}
+
+.container h2 {
+    font-weight: bolder;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.left,
+.right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.left img {
+    width: 95%;
+    height: auto;
+    animation: zoomInOut 2s linear 0s infinite alternate;
+
+}
+
+@keyframes zoomInOut {
+    0% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.right {
+
+    /* margin-left: 15%; */
+}
+
+.header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-family: 'Sofia', cursive;
+    font-weight: 600;
+    font-size: 212%;
+
+}
+
+.donationDetails {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    font-style: italic;
+    text-align: center;
+
+}
+
+.footer p {
+    color: red;
+}
+
+@media (max-width: 767px) {
+
+    .section {
+        height: 50vh;
+    }
+
+    .container p {
+        font-size: smaller;
+    }
+
+    .container h2 {
+        font-size: 95%;
+    }
+}
