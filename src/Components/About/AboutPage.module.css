@@ -135,10 +135,14 @@
 
 @media (max-width:360px) {
     .section1 h1 {
-        font-size: 150%;
+        font-size: 130%;
     }
 
     .section1 p {
-        font-size: 80%;
+        font-size: 70%;
+    }
+
+    .p_text {
+        border-left: 4px solid purple;
     }
 }
