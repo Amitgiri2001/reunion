@@ -1,7 +1,13 @@
+.venue {
+    background-color: #dbe1ef;
+    padding: 5% 0% 5% 1%;
+}
+
 .container {
     height: 50vh;
-    width: 98vw;
+    width: 100vw;
     display: flex;
+
 }
 
 .heading {
@@ -20,11 +26,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0% 1% 0% 2%;
     animation: zoomInOut 5s linear infinite;
 }
 
 .right {
-    width: 48%;
+    width: 50%;
 
     height: 47vh;
     /* background-color: green; */
@@ -32,7 +39,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-left: 2%;
+    padding-left: 4%;
 
     font-family: 'Playpen Sans', cursive;
 
@@ -54,7 +61,7 @@
     }
 
     50% {
-        transform: scale(1.1) translateY(-5%);
+        transform: scale(1.05) translateY(5%);
 
         /* Zoom in at 50% of the animation duration */
     }

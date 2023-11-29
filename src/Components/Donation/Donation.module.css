@@ -41,6 +41,7 @@
     width: 95%;
     height: auto;
     animation: zoomInOut 2s linear 0s infinite alternate;
+    float: left;
 
 }
 
@@ -88,6 +89,28 @@
     color: red;
 }
 
+.left {
+    float: left;
+}
+
+.btn {
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid pink;
+    width: max-content;
+    text-align: center;
+    margin-left: 20%;
+    background: linear-gradient(0deg, #5b13d1, #b90cdb);
+    color: white;
+    border-radius: 10px;
+    transition: transform 1s linear;
+}
+
+.btn:hover {
+    background: linear-gradient(0deg, #b90cdb, #5b13d1);
+    transform: scale(1.1);
+}
+
 @media (max-width: 767px) {
 
     .section {
@@ -100,5 +123,23 @@
 
     .container h2 {
         font-size: 95%;
+    }
+}
+
+@media (max-width: 430px) {
+    .section {
+        height: 60vh;
+    }
+
+    .container p {
+        font-size: 3.2vw;
+    }
+
+    .container h2 {
+        font-size: 95%;
+    }
+
+    .btn {
+        font-size: 2vw;
     }
 }

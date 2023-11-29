@@ -1,9 +1,19 @@
 // src/DonationPage.js
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './Donation.module.css';
-import image from "../../Images/donation.jpg"
+import image from "../../Images/donation.jpg";
+import QRCodeImage from "../../Images/QRCode.jpg"
 
 const Donation = () => {
+    const [QRCode, setQRCode] = useState(false);
+
+    function handleClick(event) {
+        if (QRCode == true) {
+            setQRCode(false);
+        } else {
+            setQRCode(true);
+        }
+    }
     return (
         <div className={styles.container}>
             <div className={styles.header}>
@@ -15,14 +25,18 @@ const Donation = () => {
                     <img src={image} alt="Donation" />
                 </div>
                 <div className={`${styles.donationDetails} ${styles.right}`}>
-                    <h2>Bank Account Details</h2>
-                    <p>Account Name - SABUJ SANGAM</p>
-                    <p>Account Number - 00000042369434197</p>
-                    <p>IFSC Code - SBIN0000048</p>
-                    <p>Branch - BURDWAN</p>
+                    <button onClick={() => handleClick()} className={styles.btn}>{QRCode ? "Bank Details" : "QR Payment"}</button>
+                    {!QRCode && (<>
+                        <h2>Bank Account Details</h2>
+                        <p>Account Name - SABUJ SANGAM</p>
+                        <p>Account Number - 00000042369434197</p>
+                        <p>IFSC Code - SBIN0000048</p>
+                        <p>Branch - BURDWAN</p>
 
-                    <h2>UPI ID</h2>
-                    <p>sabujsangam@sbi</p>
+                        <h2>UPI ID</h2>
+                        <p>sabujsangam@sbi</p>
+                    </>)}
+                    {QRCode && (<img src={QRCodeImage} alt="QR COde" />)}
                 </div>
             </div>
 

@@ -6,7 +6,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Venue = () => {
   return (
-    <>
+    <div className={styles.venue}>
       <h2 className={styles.heading}>Venue</h2>
       <div className={styles.container}>
 
@@ -45,7 +45,7 @@ const Venue = () => {
         </div>
       </div>
 
-    </>
+    </div>
   )
 }
 

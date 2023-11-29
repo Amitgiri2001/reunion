@@ -20,17 +20,17 @@ const Footer = () => {
                     <div className={styles.leftList}>
                         <ul>
                             <li><Link to="about">About us</Link></li>
-                            <li><Link to="">FAQs</Link></li>
-                            <li><Link to="">SPP</Link></li>
-                            <li><Link to="">Terms & Conditions</Link></li>
+                            <li><Link to="contact">Contact Us</Link></li>
+                            <li><Link to="gallery">Memories</Link></li>
+                            <li><Link to="merchandise">Merchandise</Link></li>
                         </ul>
                     </div>
                     <div className={styles.rightList}>
                         <ul>
+                            <li><Link to="">Venue</Link></li>
                             <li><Link to="">Events</Link></li>
-                            <li><Link to="">News</Link></li>
                             <li><Link to="gallery">Galleries</Link></li>
-                            <li><Link to="">Know more</Link></li>
+                            <li><Link to="donation">Donation</Link></li>
                         </ul>
                     </div>
                 </div>
