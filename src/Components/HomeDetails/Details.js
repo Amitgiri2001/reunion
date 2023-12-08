@@ -7,7 +7,7 @@ import reunion from "../../Images/C.M.S SCHOOL REUNION (2).png"
 const Details = () => {
     return (
         <>
-            <Template img={reunion} topHeading="𝕊𝔸𝔹𝕌𝕁 𝕊𝔸ℕ𝔾𝔸𝕄 𝟚.𝟘" heading="Presents RE-UNION 2023" text="(A Unit of Burdwan C.M.S High School Alumni).
+            <Template img={reunion} topHeading="𝕊𝔸𝔹𝕌𝕁 𝕊𝔸ℕ𝔾𝔸𝕄 𝟚.𝟘" heading="Presents RE-UNION 2023" text="
 
 
 We are happy to inform that a grand Re-union festival has been organized

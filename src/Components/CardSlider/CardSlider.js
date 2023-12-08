@@ -6,7 +6,7 @@ import styles from './CardSlider.module.css';
 import Card from './Card';
 
 import banner from "../../Images/banner.jpg";
-import { SampleNextArrow, SamplePrevArrow } from '../TopSlider/Buttons/Buttons';
+
 
 export default function CardSlider() {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -21,8 +21,6 @@ export default function CardSlider() {
         centerPadding: '0', // Set to 0 to remove side padding
         afterChange: (current) => setCurrentSlide(current),
         initialSlide: 0,
-        nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />,
         responsive: [{
             breakpoint: 600,
             settings: {

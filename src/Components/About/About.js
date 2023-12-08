@@ -62,7 +62,8 @@ const AboutPage = () => {
             <div ref={sectionRef} className={`{${styles.section} ${styles.section1} ${!isInViewport ? styles.inViewport : ''}`}>
                 <div className={styles.left}>
                     <h1 className={styles.heading}>𝕊𝔸𝔹𝕌𝕁 𝕊𝔸ℕ𝔾𝔸𝕄 𝟚.𝟘</h1>
-                    <p className={styles.p_text}> We're alumni on a mission – bringing former classmates together to reminisce, reconnect, and celebrate enduring bonds. Join us in creating memorable experiences that honor our shared history and the spirit of our school community.
+                    <p className={styles.p_text}>
+                        Welcome to our school reunion committee! We are a dedicated group of alumni committed to bringing former classmates together to reminisce, reconnect, and celebrate the bonds that time can't erase.
 
                     </p>
 
@@ -70,7 +71,7 @@ const AboutPage = () => {
                 <div className={styles.right}>
                     <h1 className={styles.heading}>ℂ.𝕄.𝕊 ℍ𝕀𝔾ℍ 𝕊ℂℍ𝕆𝕆𝕃</h1>
                     <p className={styles.p_text}>
-
+                        Join us in creating memorable experiences that honor our shared history and the enduring spirit of our school community.
                         We are official government-registered school reunion committee! Our registration number -<span>IV-020100086/2022</span> </p>
                 </div>
             </div>

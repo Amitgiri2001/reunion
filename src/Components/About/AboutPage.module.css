@@ -119,30 +119,47 @@
     }
 
     .section1 {
-        height: 80vh;
+        height: 90vh;
         padding: 2%;
     }
 
     .heading {
         margin-top: 4%;
-        font-size: 200%;
+        font-size: 150%;
     }
 
     .p_text {
         font-size: 100%;
     }
-}
 
-@media (max-width:360px) {
-    .section1 h1 {
-        font-size: 130%;
-    }
-
-    .section1 p {
-        font-size: 70%;
+    .p_text:hover {
+        transform: scale(1.04);
     }
 
     .p_text {
         border-left: 4px solid purple;
     }
+}
+
+@media (max-width:360px) {
+    .section1 h1 {
+        font-size: 150%;
+    }
+
+    .section1 p {
+        font-size: 90%;
+    }
+
+
+}
+
+@media (max-width:300px) {
+    .section1 h1 {
+        font-size: 130%;
+    }
+
+    .section1 p {
+        font-size: 90%;
+    }
+
 }

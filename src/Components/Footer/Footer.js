@@ -12,7 +12,7 @@ const Footer = () => {
         <div className={styles.footer}>
             <div className={styles.firstChild}>
                 <div className={styles.leftCol}>
-                    <h1>SABUJ SANGAM 2.0 20<span>23</span></h1>
+                    <h1>SABUJ SANGAM 2.0 2<span>K</span>23</h1>
                     <p>SABUJ SANGAM 2.0
                         , the Re-Union of C.M.S Hign School, brings all alumni students. It offers alumni a chance to relive their college memories.</p>
                 </div>
@@ -44,10 +44,10 @@ const Footer = () => {
             <div className={styles.contact_section}>
                 <p>Contact with us on:</p>
                 <div className={styles.social_icons}>
-                    <Link to="https://facebook.com"><img src={fb} alt="Facebook" className={styles.img} /></Link>
-                    <Link to="https://instagram.com"><img src={ins} alt="instagram" className={styles.img} /></Link>
+                    <Link to="https://instagram.com/sabujsangam?igshid=NzZlODBkYWE4Ng=="><img src={fb} alt="Facebook" className={styles.img} /></Link>
+                    <Link to="https://youtube.com/@SabujSangam?si=4nLWBY-Qu3RwLmZD"><img src={ins} alt="instagram" className={styles.img} /></Link>
                     <Link to="https://youtube.com"><img src={yt} alt="youtube" className={styles.img} /></Link>
-                    <Link to="https://linkedin.com"><img src={ln} alt="linkedin" className={styles.img} /></Link>
+                    <Link to="https://m.facebook.com/groups/614457513662094/?ref=share&mibextid=NSMWBT"><img src={ln} alt="linkedin" className={styles.img} /></Link>
 
                 </div>
             </div>
