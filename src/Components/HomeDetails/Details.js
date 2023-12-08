@@ -2,7 +2,7 @@
 import React from 'react';
 import styles from './Detail.module.css';
 import Template from '../Template/SwipeTemplate/Template';
-import reunion from "../../Images/C.M.S SCHOOL REUNION (2).png"
+import reunion from "../../Images/full_banner.jpg"
 
 const Details = () => {
     return (
