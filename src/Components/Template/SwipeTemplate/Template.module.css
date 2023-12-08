@@ -109,6 +109,11 @@
         margin-top: 51vh;
     }
 
+    .img {
+        width: 90vw;
+        margin-left: 5vw;
+    }
+
     .left:hover,
     .right:hover {
         transform: scale(1.02) translateY(0%);
