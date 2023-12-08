@@ -49,7 +49,7 @@ const TopSlider = () => {
                     <img className={styles.img} src={slider2} alt='Slider 1' />
                 </div>
                 <div className={`${styles.img} ${currentSlide === 2 && styles.zoomed}`}>
-                    <img className={styles.img} src={slider5} alt='Slider 1' />
+                    <img className={styles.img} src={slider3} alt='Slider 1' />
                 </div>
                 <div className={`${styles.img} ${currentSlide === 3 && styles.zoomed}`}>
                     <img className={styles.img} src={slider4} alt='Slider 1' />
