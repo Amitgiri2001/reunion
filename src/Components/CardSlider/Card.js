@@ -4,7 +4,7 @@ import styles from "./Card.module.css";
 const Card = (props) => {
 
     const gradientStyle = {
-        // backgroundImage: 'linear-gradient(to right, #EEF296, #6a82fb)', // You can customize the colors and direction
+
         // Set the height of the container as needed
         display: 'flex',
         justifyContent: 'center',

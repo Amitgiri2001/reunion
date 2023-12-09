@@ -41,6 +41,7 @@
     padding: 2%;
     background-repeat: no-repeat;
     background-position: center;
+    animation: zoomInOut 2s linear 0s infinite alternate;
 }
 
 .left:hover {

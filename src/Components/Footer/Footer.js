@@ -44,9 +44,9 @@ const Footer = () => {
             <div className={styles.contact_section}>
                 <p>Contact with us on:</p>
                 <div className={styles.social_icons}>
-                    <Link to="https://instagram.com/sabujsangam?igshid=NzZlODBkYWE4Ng=="><img src={fb} alt="Facebook" className={styles.img} /></Link>
-                    <Link to="https://youtube.com/@SabujSangam?si=4nLWBY-Qu3RwLmZD"><img src={ins} alt="instagram" className={styles.img} /></Link>
-                    <Link to="https://youtube.com"><img src={yt} alt="youtube" className={styles.img} /></Link>
+                    <Link to="https://m.facebook.com/groups/614457513662094/?ref=share&mibextid=NSMWBT"><img src={fb} alt="Facebook" className={styles.img} /></Link>
+                    <Link to="https://instagram.com/sabujsangam?igshid=NzZlODBkYWE4Ng=="><img src={ins} alt="instagram" className={styles.img} /></Link>
+                    <Link to="https://youtube.com/@SabujSangam?si=4nLWBY-Qu3RwLmZD"><img src={yt} alt="youtube" className={styles.img} /></Link>
                     <Link to="https://m.facebook.com/groups/614457513662094/?ref=share&mibextid=NSMWBT"><img src={ln} alt="linkedin" className={styles.img} /></Link>
 
                 </div>

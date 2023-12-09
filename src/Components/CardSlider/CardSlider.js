@@ -5,7 +5,7 @@ import Slider from 'react-slick';
 import styles from './CardSlider.module.css';
 import Card from './Card';
 
-import banner from "../../Images/banner.jpg";
+
 
 
 export default function CardSlider() {
@@ -58,7 +58,7 @@ export default function CardSlider() {
                         className={`${styles.slide} `}
                     >
                         <div className={`${styles.one} ${index === currentSlide ? styles.centeredSlide : ''}`}>
-                            <Card data={item} classes={index === currentSlide ? 'centeredSlide' : ''} image={banner} />
+                            <Card data={item} classes={index === currentSlide ? 'centeredSlide' : ''} />
                         </div>
                     </div>
                 ))}
